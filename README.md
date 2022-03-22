@@ -1,5 +1,14 @@
-grabserial
+Start-up-time-measurement
 ==========
+如何使用
+------------
+先编辑run.sh：确保串口节点/dev/ttyUSB0存在，设置-m 开始计时的log
+
+运行：
+
+    $ run.sh
+
+# grabserial
 
 Grabserial - python-based serial dump and timing program - good for
 embedded Linux development
@@ -64,4 +73,3 @@ output files**; one with the date and time it was started and another with
 the date and time that the program first outputs data after the system
 time passes midnight.
 
-# Start-up-time-measurement
